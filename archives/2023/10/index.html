@@ -13,7 +13,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title> zy</title>
+      <title>Archives: 2023/10 |  zy</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -56,209 +56,54 @@
         style="position: fixed; left: 0px; top: 0px; z-index: 99999; pointer-events: none;"></canvas>
       
     <main class="content on">
-      
-<section class="cover">
-    
-  <div class="cover-frame">
-    <div class="bg-box">
-      <img src="/images/cover8.jpg" alt="image frame" />
-    </div>
-    <div class="cover-inner text-center text-white">
-      <h1><a href="/">zy</a></h1>
-      <div id="subtitle-box">
-        
-        <span id="subtitle"></span>
-        
-      </div>
-      <div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="cover-learn-more">
-    <a href="javascript:void(0)" class="anchor"><i class="ri-arrow-down-line"></i></a>
-  </div>
-</section>
-
-
-
-<script src="https://cdn.staticfile.org/typed.js/2.0.12/typed.min.js"></script>
-
-
-<!-- Subtitle -->
-
-  <script>
-    try {
-      var typed = new Typed("#subtitle", {
-        strings: ['Welcome to My Blog', '', ''],
-        startDelay: 0,
-        typeSpeed: 200,
-        loop: true,
-        backSpeed: 100,
-        showCursor: true
-      });
-    } catch (err) {
-      console.log(err)
-    }
-  </script>
+      <section class="outer">
   
-<div id="main">
-  <section class="outer">
-  
-  
-  
-
-<div class="notice" style="margin-top:50px">
-    <i class="ri-heart-fill"></i>
-    <div class="notice-content" id="broad"></div>
-</div>
-<script type="text/javascript">
-    fetch('https://v1.hitokoto.cn')
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById("broad").innerHTML = data.hitokoto;
-        })
-        .catch(console.error)
-</script>
-
-<style>
-    .notice {
-        padding: 20px;
-        border: 1px dashed #e6e6e6;
-        color: #969696;
-        position: relative;
-        display: inline-block;
-        width: 100%;
-        background: #fbfbfb50;
-        border-radius: 10px;
-    }
-
-    .notice i {
-        float: left;
-        color: #999;
-        font-size: 16px;
-        padding-right: 10px;
-        vertical-align: middle;
-        margin-top: -2px;
-    }
-
-    .notice-content {
-        display: initial;
-        vertical-align: middle;
-    }
-</style>
   
   <article class="articles">
     
     
+    <h1 class="page-type-title">2023/10</h1>
     
     
-    <article
-  id="post-如何入门混沌系统及其电路"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
+  
+  
+  
+  
+  
+  
+  <div class="archives-wrap">
+    <div class="archive-year-wrap">
+      <a href="/archives/2023" class="archive-year">2023</a>
+    </div>
+    <div class="archives">
+      
+      <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/2023/10/08/%E5%A6%82%E4%BD%95%E5%85%A5%E9%97%A8%E6%B7%B7%E6%B2%8C%E7%B3%BB%E7%BB%9F%E5%8F%8A%E5%85%B6%E7%94%B5%E8%B7%AF/" class="archive-article-date">
+  <time datetime="2023-10-08T03:28:55.000Z" itemprop="datePublished">10/08</time>
+</a>
        
 <h2 itemprop="name">
-  <a class="article-title" href="/2023/10/08/%E5%A6%82%E4%BD%95%E5%85%A5%E9%97%A8%E6%B7%B7%E6%B2%8C%E7%B3%BB%E7%BB%9F%E5%8F%8A%E5%85%B6%E7%94%B5%E8%B7%AF/"
+  <a class="archive-article-title" href="/2023/10/08/%E5%A6%82%E4%BD%95%E5%85%A5%E9%97%A8%E6%B7%B7%E6%B2%8C%E7%B3%BB%E7%BB%9F%E5%8F%8A%E5%85%B6%E7%94%B5%E8%B7%AF/"
     >如何入门混沌系统及其电路</a> 
 </h2>
  
 
-      
     </header>
-     
-    <div class="article-meta">
-      <a href="/2023/10/08/%E5%A6%82%E4%BD%95%E5%85%A5%E9%97%A8%E6%B7%B7%E6%B2%8C%E7%B3%BB%E7%BB%9F%E5%8F%8A%E5%85%B6%E7%94%B5%E8%B7%AF/" class="article-date">
-  <time datetime="2023-10-08T03:28:55.000Z" itemprop="datePublished">2023-10-08</time>
-</a>    
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>学习背景：本人做的是基于忆阻器的混沌电路的研究<br>要求：<br>    基础学习：高数，线代，良好的数学基础<br>       软件学习：matlab(基本是用matlab进行仿真) pspice（用来进行混沌系统电路的实现<br>        multism也可以平替（国内学习资料更多）<br>那就进入正题了：<br>1.首先可以看一下3Blue1Brown的一个视频用来讲解这个相图与微分方程之间的联系<br>    <a target="_blank" rel="noopener" href="https://youtu.be/p_di4Zn4wz4">https://youtu.be/p_di4Zn4wz4</a><br>（他们团队对数学问题的可视化做的非常好，赶紧点个订阅）</p>
-<p>2.然后就可以啃一下两本书《禹思敏__混沌系统与混沌电路原理设计及其在通信中的应用》<br>   《混沌电路导论 [包伯成 著] 2013年版》</p>
-<p>3.直接看书是很抽象的建议看完这两篇博客<br>   <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_42943114/article/details/123193855">https://blog.csdn.net/weixin_42943114/article/details/123193855</a><br>  <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_42943114/article/details/123462050">https://blog.csdn.net/weixin_42943114/article/details/123462050</a><br>  理解这些图的含义然后完成其复现 大概就能初步理解</p>
-<p>4.如果完成以上的任务 那就可以读文献了<br>   先找几篇硕士&#x2F;博士论文精读尝试复现程序<br>如果数学基础好的话 大概一个月可以入门<br>这次就先从整体简单介绍一下 后续会更新其中细节</p>
- 
-      <!-- reward -->
-      
-    </div>
     
-
-    <!-- copyright -->
     
-    <footer class="article-footer">
-       
-    </footer>
   </div>
-
-   
-   
-  
 </article>
-
-    
-    <article
-  id="post-第一篇文章"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2023/09/25/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"
-    >第一篇文章</a> 
-</h2>
- 
-
       
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2023/09/25/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
-  <time datetime="2023-09-25T07:47:23.000Z" itemprop="datePublished">2023-09-25</time>
-</a>    
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>博客用途：科研竞赛以及生活方面的分享</p>
- 
-      <!-- reward -->
       
     </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-    </footer>
   </div>
-
-   
-   
   
-</article>
-
-    
-  </article>
   
 
   
 </section>
-</div>
-
       <footer class="footer">
   <div class="outer">
     <ul>
