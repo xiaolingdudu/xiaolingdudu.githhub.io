@@ -7,7 +7,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://xiaolingdudu.github.io/img/OIP.jpg">
 <meta property="article:published_time" content="2023-10-29T12:47:12.000Z">
-<meta property="article:modified_time" content="2023-10-29T13:27:15.062Z">
+<meta property="article:modified_time" content="2023-10-29T14:48:46.177Z">
 <meta property="article:author" content="zy">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://xiaolingdudu.github.io/img/OIP.jpg"><link rel="shortcut icon" href="/img/OIP.jpg"><link rel="canonical" href="https://xiaolingdudu.github.io/2023/10/29/Two-variable-boosting-bifurcation-in-a-hyperchaotic-map-and-its-hardware-implementation/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
@@ -55,7 +55,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2023-10-29 21:27:15'
+  postUpdate: '2023-10-29 22:48:46'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -173,7 +173,7 @@
     document.addEventListener('pjax:send', () => { preloader.initLoading() })
     document.addEventListener('pjax:complete', () => { preloader.endLoading() })
   }
-})()</script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/OIP.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/cover8.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="zy"><img class="site-icon" src="https://th.bing.com/th/id/OIP.5sMZmKdGxJU0Q0reYUsbLwHaJo?pid=ImgDet&amp;rs=1"/><span class="site-name">zy</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Two-variable boosting bifurcation in a hyperchaotic map and its hardware implementation</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-10-29T12:47:12.000Z" title="发表于 2023-10-29 20:47:12">2023-10-29</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-10-29T13:27:15.062Z" title="更新于 2023-10-29 21:27:15">2023-10-29</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Two-variable boosting bifurcation in a hyperchaotic map and its hardware implementation"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>对这篇论文做笔记和复现以及分析<br>1.Abstract:<br>    1.对离散图中混沌序列的振荡幅度进行无损调整的报道较少，本文设计了一个新的基于三角函数的二维超混沌的模型，<br>    2.通过改变初始变量和系统参数展示了偏移增强分岔和偏移增强共存吸引子，而且还显示了两个状态变量相对于二维图中任意参数的偏移增强<br>    3.引入新的控制参数也可以使超混沌映射表现出丰富的多稳态现象<br>    4.再通过硬件测试和PRNG来验证</p>
+})()</script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/OIP.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/cover8.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="zy"><img class="site-icon" src="https://th.bing.com/th/id/OIP.5sMZmKdGxJU0Q0reYUsbLwHaJo?pid=ImgDet&amp;rs=1"/><span class="site-name">zy</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Two-variable boosting bifurcation in a hyperchaotic map and its hardware implementation</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-10-29T12:47:12.000Z" title="发表于 2023-10-29 20:47:12">2023-10-29</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-10-29T14:48:46.177Z" title="更新于 2023-10-29 22:48:46">2023-10-29</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Two-variable boosting bifurcation in a hyperchaotic map and its hardware implementation"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>对这篇论文做笔记和复现以及分析<br>1.Abstract:<br>    1.对离散图中混沌序列的振荡幅度进行无损调整的报道较少，本文设计了一个新的基于三角函数的二维超混沌的模型，<br>    2.通过改变初始变量和系统参数展示了偏移增强分岔和偏移增强共存吸引子，而且还显示了两个状态变量相对于二维图中任意参数的偏移增强<br>    3.引入新的控制参数也可以使超混沌映射表现出丰富的多稳态现象<br>    4.再通过硬件测试和PRNG来验证</p>
 <p>2.二维超混沌映射的数学模型<br>    xn+1 &#x3D; xn + a sin(yn)<br>    yn+1 &#x3D; b sin(xn)<br>    求出其不动点和其特征值<br>    特征方程：P(λ) &#x3D; (λ − 1)λ − ab cos(μπ )<br>    P1(λ) &#x3D; (λ − 1)λ − ab<br>    P2(λ) &#x3D; (λ − 1)λ + ab<br>    由u是否为奇偶数来决定</p>
 <pre><code>再分析其SE(谱熵复杂度)   谱熵通常用于描述信号的复杂性和不规则性。
 给出计算SE的函数
@@ -270,6 +270,206 @@
             set(gca,&#39;FontName&#39;,&#39;Times New Roman&#39;,&#39;box&#39;,&#39;on&#39;,&#39;linewidth&#39;,1,&#39;fontsize&#39;,16);
             toc
 </code></pre>
-<p>3.基于初始值的初始提升分叉和提升共存吸引子
-    </p>
+<p>3.基于初始值的初始提升分叉和提升共存吸引子<br>    首先是令初值(x0, y0) &#x3D; (0.1, 0.1)和系统的参数a&#x3D;1.8<br>        代码如下：<br>            为分岔图<br>            clc<br>            clear all<br>            Q&#x3D;eye(2);<br>            dot&#x3D;100000;<br>            b&#x3D;-3:0.01:3; %b<br>            for k1&#x3D;1:length(b)<br>               m&#x3D;b(k1);%分叉参数<br>               x(1)&#x3D;0.1;<br>               y(1)&#x3D;0.1;<br>               a&#x3D;1.8;<br>            for n&#x3D;1:dot</p>
+<pre><code>            x(n+1)=x(n)+a*sin(y(n));
+            y(n+1)=m*sin(x(n));
+        end
+            B1(k1,:)=x(end-100:end);
+            clear x y z
+        end
+        figure(8)
+        plot(b,B1,&#39;r.&#39;,&#39;Markersize&#39;,4)
+        xlabel(&#39;\ita&#39;,&#39;fontsize&#39;,16)
+        ylabel(&#39;\itx_n&#39;,&#39;fontsize&#39;,16)
+        set(gca,&#39;FontName&#39;,&#39;Times New Roman&#39;,&#39;linewidth&#39;,1,&#39;fontsize&#39;,16);
+        hold on
+用y为纵坐标修改B1(k1,:)=x(end-100:end);即可
+
+李指数图：
+        clc
+        clear all
+        Q=eye(2);
+        dot=40000;
+        b=2;
+        b=-8:0.01:8; %分岔参数范围
+        % % u=-0.5;d=1.3;m=-0.6;
+        % u=0.8;r=0.05;d=-0.56;k=0.99;
+        % d=-0.64;c=1;
+
+        for k1=1:length(b)
+            k=b(k1);%参数
+            x(1)=0.1;
+            y(1)=0.1;
+            a=1.8;
+        %     z(1)=0.1;%初值
+        for n=1:dot
+        %     x(n+1)=x(n)+a*x(n)*sin(y(n))+b;
+        %     y(n+1)=y(n)+x(n); %超混沌映射系统
+
+        %         x(n+1)=1+y(n)-a*x(n)^2;
+        %         y(n+1)=b*x(n);henon映射
+
+        % 
+        % x(n+1)=x(n)-k*x(n)*cos(y(n));
+        %     y(n+1)=y(n)+x(n);
+
+
+             x(n+1)=x(n)+a*sin(y(n));
+               y(n+1)=k*sin(x(n));%ND文章的模型
+
+        % x(n+1)=k*d*sin(c*pi*x(n))+(((2*y(n)-1)^2)*x(n));
+        % y(n+1)=x(n)+y(n);%Chaos文章的模型
+
+
+        % x(n+1)=k*(d*(2*y(n)-1)^2*x(n)+u*sin(pi*x(n))+m*cos(z(n))*x(n));
+        %     y(n+1)=y(n)+x(n);%基于忆阻的混沌映射
+        %     z(n+1)=x(n)+z(n);
+
+        % x(n+1)=x(n)*u*((y(n)^2-1)+z(n))+d*sin(pi*x(n)); no.4
+        % y(n+1)=y(n)+k*x(n);
+        % z(n+1)=c*cos(r*n+r);NO.4论文设想
+
+
+        % x(n+1)=k*d*sin(c*pi*x(n))+(((2*y(n)-1)^2)*x(n));
+        % y(n+1)=x(n)+y(n);%Chaos文章的模型
+
+                Xx=1;
+                Xy=a*cos(y(n));
+ 
+                Yx=k*cos(x(n));
+                Yy=0;
+    
+                J=[Xx Xy ;Yx Yy ;];
+                B=J*Q;
+                [Q,R]=qr(B);
+                L1(n+1)=log(abs(R(1,1)));
+                L2(n+1)=log(abs(R(2,2)));
+  
+        end
+            B1(k1,:)=x(end-100:end);
+            L11(k1)=sum(L1(1000:end))/30000;
+            L22(k1)=sum(L2(1000:end))/30000;
+
+        end
+        % figure%分岔图
+        % plot(A,B1,&#39;b.&#39;,&#39;Markersize&#39;,4)
+        % % xlim([0.2 1.25])
+        % % ylim([-1.5 2.5])
+        % xlabel(&#39;\itb&#39;,&#39;fontsize&#39;,16)
+        % ylabel(&#39;\itx\rm(\itn\rm)&#39;,&#39;fontsize&#39;,16)
+        % set(gca,&#39;FontName&#39;,&#39;Times New Roman&#39;,&#39;linewidth&#39;,1,&#39;fontsize&#39;,16);
+
+        figure%李指图
+        plot(b,L11,&#39;r&#39;,&#39;linewidth&#39;,2);
+        grid on
+        hold on
+        plot(b,L22,&#39;b&#39;,&#39;linewidth&#39;,2);
+        % grid on
+        % hold on
+        % plot(A,L33,&#39;k&#39;,&#39;linewidth&#39;,2);
+        % xlim([0.2 1.25])
+        % ylim([-5 1.1])
+        xlabel(&#39;\itb&#39;,&#39;fontsize&#39;,16)
+        ylabel(&#39;LEs&#39;,&#39;fontsize&#39;,16)
+        legend(&#39;\lambda_1&#39;,&#39;\lambda_2&#39;,&#39;fontsize&#39;,16)
+        set(gca,&#39;FontName&#39;,&#39;Times New Roman&#39;,&#39;linewidth&#39;,1,&#39;fontsize&#39;,16);
+    
+</code></pre>
+<p>接下来的用a为行坐标的分岔图和李指数同上进行适当修改即可</p>
+<p>对于改变参数和初始值的对称，绘制吸引子和迭代序列<br>            tic;<br>            a&#x3D;1.8;b&#x3D;2;%参数<br>            dot&#x3D;50000;<br>            x(1)&#x3D;0.1;%初值<br>            y(1)&#x3D;0.1；<br>            for n&#x3D;1:dot<br>                 x(n+1)&#x3D;x(n)+a<em>sin(y(n));<br>                 y(n+1)&#x3D;b</em>sin(x(n));<br>            end<br>            figure(22)<br>            plot(x(1:400),’’)<br>            xlabel(‘\itn’,’fontsize’,16)<br>            ylabel(‘\itx\rm(\itn\rm)’,’fontsize’,16)<br>            set(gca,’FontName’,’Times New Roman’,’linewidth’,1,’fontsize’,16);<br>            hold on</p>
+<pre><code>        x(1)=-0.1;%初值
+        y(1)=-0.1;
+        for n=1:dot
+            x(n+1)=x(n)+a*sin(y(n));
+            y(n+1)=b*sin(x(n));
+        end
+        plot(x(1:400),&#39;&#39;)
+        plot(x(1000:15000),y(1000:15000),&#39;r.&#39;)
+        xlabel(&#39;\itx&#39;,&#39;fontsize&#39;,18)
+        ylabel(&#39;\ity&#39;,&#39;fontsize&#39;,18)
+        set(gca,&#39;FontName&#39;,&#39;Times New Roman&#39;,&#39;linewidth&#39;,1,&#39;fontsize&#39;,16);
+
+        figure(49)
+        plot(x(1000:15000),y(1000:15000),&#39;b.&#39;)
+        xlabel(&#39;\itx&#39;,&#39;fontsize&#39;,18)
+        ylabel(&#39;\ity&#39;,&#39;fontsize&#39;,18)
+        set(gca,&#39;FontName&#39;,&#39;Times New Roman&#39;,&#39;linewidth&#39;,1,&#39;fontsize&#39;,16);
+        hold on
+</code></pre>
+<p>只列举了其中a&#x3D;1.8,b&#x3D;2的例子，其他参数类似</p>
+<p>上述结果表示：本文提出的二维超混沌映射具有复杂的动态特性，其动态行为与两个系统参数密切相关</p>
+<p>0—1测试的介绍：<br>        公式(10)中，M(n) 表示平均平方位移，表示随时间 n 变化的均方根位移。它的计算基于维度函数 p(n) 和 q(n)。<br>        维度函数 p(n) 和 q(n) 是在复平面上的均值分量，它们的计算涉及傅里叶变换，详见前面的讨论。<br>        Mc(n)（公式(11)）是平均平方位移 M(n) 的计算，它是根据时间序列 x(n) 的差的平方来计算的。它是在序列上计算的，其中 j 表示不同的时间偏移，N 表示总的采样点数。<br>        E(φ)（公式(12)）是时间序列 x(n) 的平均值。<br>        Kc（公式(13)）是 M(n) 的渐进增长率。它表示 M(n) 随时间 n 变化的趋势。Kc 的计算是取 M(n) 的对数，然后除以 log(n)，其中 n 表示时间。<br>        这些公式的推导需要一些数学上的分析和极限过程，通常通过极限分析来获得。总体来说，这些公式用于描述混沌序列的平方位移和随时间的增长趋势，以便判断序列的混沌性质。如果 Kc 接近 0 或 1，那么序列更可能是混沌的。</p>
+<pre><code>    0-1检测方法的思路是将混沌序列映射到复平面上，并根据分布情况来判断序列的混沌性。下面是更详细的步骤：
+
+    获取混沌序列：首先，你有一个混沌序列，假设这个序列是x(n)，n表示序列的离散时间。
+    分别计算p(n)和q(n)：为了将序列映射到复平面，你需要计算序列在不同方向上的均值分量。
+
+    p(n) 表示序列的实部在不同方向上的均值分量。
+    q(n) 表示序列的虚部在不同方向上的均值分量。
+    这些分量是通过傅里叶变换的实部和虚部来计算的。
+
+    映射到复平面：使用p(n)作为x坐标，q(n)作为y坐标，你将得到一系列点在复平面上的分布。
+
+    分析复平面上的点的分布：观察复平面上的点的分布情况，特别是它们是否靠近单位圆（与混沌性相关）。通过计算逐渐增长率Kc（参考步骤8的公式），你可以根据这些点的分布来判断混沌性。
+
+    判断混沌性：根据步骤4中复平面上的点的分布情况和计算的Kc值，你可以判断混沌序列的特性。具体的判断标准通常是Kc接近0和1，越接近0或1表示序列越可能是混沌的。
+
+    结果：根据Kc的值和复平面上的点的分布，你可以判断输入的序列是否具有混沌性质。
+
+    总之，0-1检测方法通过将混沌序列映射到复平面上，分析复平面上的点的分布来判断混沌性。p(n)和q(n)分别表示序列的实部和虚部在不同方向上的均值分量，是检测的关键步骤之一
+    
+</code></pre>
+<p>这里代码较长就不列举代码了（已打包）<br>这个测试方法也为检测混沌行为的一种方法（记忆）</p>
+<p>下面介绍 基于初始值的初始提升分叉<br>    通过改变初始值(x0, y0)&#x3D;(0.1+2k π ,0.1)(k&#x3D;±2, ±1, 0)<br>    and (x0, y0)&#x3D;(−0.1 + 2k π , −0.1)(k&#x3D;±2, ±1, 0)<br>    其正负值的分岔图是对称的<br>    而且按+2kπ的方式改变初始值 得到的一些指标相同，这表明混沌映射具有良好的初始可控性和鲁棒性。<br>    其分岔图和吸引子的代码与前文的类似，就不再列举，只需改变初值即可</p>
+<p>介绍一下PE(排列熵)<br>        对于计算排列熵（Permutation Entropy，PE），它是一种用来衡量时间序列复杂性的方法，特别是在混沌理论和动力系统研究中应用广泛。它通过考虑时间序列中数据点的排列来量化时间序列的规则性或可预测性。以下是如何计算排列熵的步骤：</p>
+<pre><code>    选择嵌入维度：首先，您需要确定一个适当的嵌入维度，用“m”表示。这个维度与您用于构建排列的数据点数相关。
+
+    创建长度为“m”的向量：将您的时间序列数据进行处理，通过在时间序列上滑动一个窗口来创建一组长度为“m”的向量。窗口每次移动一个时间步长，每个向量包含连续的“m”个数据点。
+
+    计算排列：对于每个长度为“m”的向量，计算数据点的排列方式数，以量化数据点的排列顺序。
+
+    计算概率：计算每种唯一排列在您的向量中出现的概率。概率是通过将特定排列出现的次数除以排列的总数来确定的。
+
+    计算排列熵：最后，您可以计算排列熵，通常表示为PE(m)，通过将所有唯一排列的概率相加并取负自然对数。PE的通常公式如下：
+
+    PE(m) = -∑[P(π) * log(P(π))]
+
+    其中：
+
+    PE(m) 表示嵌入维度“m”的排列熵。
+    P(π) 表示特定排列“π”出现的概率。
+    您可以使用不同的嵌入维度进行此计算，比如PE(3)和PE(5)，它们分别表示嵌入维度为3和5时的排列熵。排列熵可以测量时间序列的复杂性，PE值较低表示更规律和可预测的行为，而PE值较高表示更大的复杂性和不可预测性。
+
+    代码：
+        function [PE3, PE5] = calculatePermutationEntropy(data)
+        % 输入参数 data：包含时间序列数据的向量
+
+        % 设置嵌入维度
+        m3 = 3;  % 嵌入维度为3
+        m5 = 5;  % 嵌入维度为5
+
+        % 初始化排列熵
+        PE3 = 0;
+        PE5 = 0;
+
+        % 数据长度
+        N = length(data);
+
+        % 计算排列熵 PE(3)
+        for i = 1:(N - m3 + 1)
+            subsequence = data(i:(i + m3 - 1));
+            [~, order] = sort(subsequence);
+            PE3 = PE3 - log(factorial(m3)) + log(factorial(m3) - sum(diff(order) == 1));
+        end
+        PE3 = PE3 / (N - m3 + 1);
+
+        % 计算排列熵 PE(5)
+        for i = 1:(N - m5 + 1)
+            subsequence = data(i:(i + m5 - 1));
+            [~, order] = sort(subsequence);
+            PE5 = PE5 - log(factorial(m5)) + log(factorial(m5) - sum(diff(order) == 1));
+        end
+        PE5 = PE5 / (N - m5 + 1);
+    end
+</code></pre>
 </article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://xiaolingdudu.github.io">zy</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://xiaolingdudu.github.io/2023/10/29/Two-variable-boosting-bifurcation-in-a-hyperchaotic-map-and-its-hardware-implementation/">https://xiaolingdudu.github.io/2023/10/29/Two-variable-boosting-bifurcation-in-a-hyperchaotic-map-and-its-hardware-implementation/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://xiaolingdudu.github.io" target="_blank">zy</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/img/OIP.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2023/10/08/%E5%A6%82%E4%BD%95%E5%85%A5%E9%97%A8%E6%B7%B7%E6%B2%8C%E7%B3%BB%E7%BB%9F%E5%8F%8A%E5%85%B6%E7%94%B5%E8%B7%AF/" title="如何入门混沌系统及其电路"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">如何入门混沌系统及其电路</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/OIP.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">zy</div><div class="author-info__description">Blog</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/xiaoling" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:xxxxxx@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/10/29/Two-variable-boosting-bifurcation-in-a-hyperchaotic-map-and-its-hardware-implementation/" title="Two-variable boosting bifurcation in a hyperchaotic map and its hardware implementation">Two-variable boosting bifurcation in a hyperchaotic map and its hardware implementation</a><time datetime="2023-10-29T12:47:12.000Z" title="发表于 2023-10-29 20:47:12">2023-10-29</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/10/08/%E5%A6%82%E4%BD%95%E5%85%A5%E9%97%A8%E6%B7%B7%E6%B2%8C%E7%B3%BB%E7%BB%9F%E5%8F%8A%E5%85%B6%E7%94%B5%E8%B7%AF/" title="如何入门混沌系统及其电路">如何入门混沌系统及其电路</a><time datetime="2023-10-08T03:28:55.000Z" title="发表于 2023-10-08 11:28:55">2023-10-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/09/25/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" title="第一篇文章">第一篇文章</a><time datetime="2023-09-25T07:47:23.000Z" title="发表于 2023-09-25 15:47:23">2023-09-25</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By zy</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script src="/js/snowflake.js"></script><script defer src="https://gcore.jsdelivr.net/combine/npm/jquery@latest/dist/jquery.min.js,gh/weilining/jsdelivr/jquery/circlemagic/circlemagic.min.js,gh/weilining/jsdelivr@latest/jquery/circlemagic/butterflycirclemagic.js"></script><script src="/js/fish.js"></script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="false" data-text="I,LOVE,YOU" data-fontsize="15px" data-random="false" async="async"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
